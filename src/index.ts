@@ -12,9 +12,9 @@ const cityTimezones = require("city-timezones")
 const zipcode_to_timezone = require( 'zipcode-to-timezone' )
 const weather = require('weather-js')
 
-index()
+checkTimeAndWeather()
 
-function index() {
+function checkTimeAndWeather() {
 
   for (const item of inputArray) {
 
